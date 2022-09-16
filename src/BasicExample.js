@@ -58,7 +58,7 @@ function BasicExample() {
         menuLists.push(renderListItem(cat.name));
 
       if (cat.subCategories?.length > 0)
-        return menuLists.push(renderDropdown(cat.name, cat.subCategories));
+        menuLists.push(renderDropdown(cat.name, cat.subCategories));
     });
 
     return menuLists;
